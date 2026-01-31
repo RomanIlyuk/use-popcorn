@@ -25,6 +25,7 @@ export default function StarRating({
     setRating(rating);
     onSetRating(rating);
   }
+  
 
   const textStyle = {
     lineHeight: "1",
@@ -98,5 +99,7 @@ function Star({ onRate, full, onHoverIn, onHoverOut, color, size }) {
         </svg>
       )}
     </span>
+
+  
   );
 }
